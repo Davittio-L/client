@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import JupiterScene from './components/JupiterScene';
 
 function App() {
   return (
     <div className="App">
+      <JupiterScene />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
